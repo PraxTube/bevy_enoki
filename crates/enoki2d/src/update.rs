@@ -45,7 +45,7 @@ pub struct ParticleStore(pub Vec<Particle>);
 pub struct Particle {
     pub(crate) transform: Transform,
     pub(crate) lifetime: Timer,
-    pub(crate) velocity: (Vec3, f32),
+    pub velocity: (Vec3, f32),
     pub(crate) color: LinearRgba,
     pub(crate) frame: u32,
     pub(crate) linear_acceleration: f32,
